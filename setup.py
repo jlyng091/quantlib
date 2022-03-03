@@ -1,3 +1,6 @@
+# run via pip install -e .
+# or pip install --editable .
+
 import setuptools
 
 setuptools.setup(
@@ -6,7 +9,7 @@ setuptools.setup(
     description='quantlib by jln',
     url='0',
     author='Justin L. Ng',
-    install_requires=['numpy', 'pandas'],
+    install_requires=['numpy', 'pandas', 'talib; python_version=="0.4.19"'],
     author_email='',
     packages=setuptools.find_packages(),
     zip_safe=False
